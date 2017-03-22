@@ -9,8 +9,11 @@ function draw(){
    flower(300,200); 
    flower(400,300); 
    flower(500,300); 
-
-     flower(mouseX, mouseY)
+    
+    if(mouseIsPressed){
+     flower(mouseX, mouseY);   
+    }
+     
 }
 
 function flower(x,y){
